@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+   int age;
+   float per;
+   double rs;
+   char gender;
+   age=21;
+   per=99.69;
+   rs=964455;
+   gender='M';
+   
+    printf("size of int:%d",sizeof(int));
+    printf("size of float:%d",sizeof(float));
+    printf("size of double:%d",sizeof(double));
+    printf("size of char:%d",sizeof(char));
+    return 0;
+
+}
