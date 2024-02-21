@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    float number1,number2,result;
+    printf("Enter the number 1\n");
+    scanf("%f",&number1);
+    printf("enter the number 2\n");
+    scanf("%f",&number2);
+    
+    result=number1*number2;
+    printf("%f*%f=%f",number1,number2,result);
+    return 0;
+
+}
