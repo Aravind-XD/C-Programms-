@@ -8,8 +8,8 @@ int main()
     printf("enter the number 2\n");
     scanf("%d",&number2);
     
-    result=number1*number2;
-    printf("%d*%d=%d",number1,number2,result);
+    result=number1+number2;
+    printf("%d+%d=%d",number1,number2,result);
     return 0;
 
 }
